@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-to-cart</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    <header id="header-section">
+        <section class="header-col1">
+            <div class="container flex">
+                <p>Free shopping 30-day return or refund guarantee.</p>
+
+                <ul class="flex">
+                    <li>
+                        <a href="#">SIGN IN</a>
+                    </li>
+                    <li>
+                        <a href="#">SIGN UP</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="nav-section">
+            <nav>
+                <div class="container">
+                    <div class="navbar flex">
+                        <div class="brand-logo">
+                            <img src="/Assets/Tripathi store.png" alt="brand-log" width="80px" height="80px">
+                        </div>
+    
+                        <ul class="flex">
+                            <li>
+                                <a href="/index.html" class="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="./about.html" class="nav-link">About</a>
+                            </li>
+                            <li>
+                                <a href="./product.html" class="nav-link">Products</a>
+                            </li>
+                            <li>
+                                <a href="./Contact.html" class="nav-link">Contact</a>
+                            </li>
+    
+                            <div  class=" nav-btn btn">
+                                <a href="#" id="cart" >
+                                    <i class="fa-solid fa-cart-shopping"> 0 </i>
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- Heder End -->
+     <section  class="addToCartElement">
+        <div class="container">
+            <section>
+                <div id="productCartContainer" class=""></div>
+            </section>
+            
+            <section class="productCartTotalElem">
+                <div class="productTotalElem">
+                    <p>Selected offer Summary</p>
+                    <div class="productOrderTotal .flex">
+                        <div class="flex">
+                            <p>Sub Total:</p>
+                            <p class="productSubTotal ">0</p>
+                        </div>
+                        <div class="flex">
+                            <p>Tax:</p>
+                            <p class="productTax ">₹ 50</p>
+                        </div>
+                        <hr />
+                        <div class="flex">
+                            <p>Final Total:</p>
+                            <p class="productFinalTotal ">₹0</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </section>
+        </div>
+     </section>
+     
+     <!-- Template -->
+     <template id="productCartTemplate"  >
+        <div class="product-card productCart flex" id="cardValue">
+            <article class="cart-information [product-card]">
+                <span class="Product-category"> </span>
+                <div class="img-Container cart-img-container">
+                    <img class="Product-img" src="" alt="" >
+                </div>
+
+                <h2 class="Product-name"> </h2>
+
+
+                <div class="product-Price-Element flex">
+                    <p class="product-Price"> </p>
+                    
+                </div>
+
+               
+
+                <div class="product-Quantity-Element flex">
+                    <p class="productProperty"></p>
+                    <div class="stock-Element flex">
+                        <button class="cart-Increement">+</button>
+                        <p class="product-Quantity">1</p>
+                        <button class="cart-Decreement">-</button>
+                    </div>
+                </div>
+
+                <div class="add-to-cart-button remove-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i> Remove
+                </div>
+            </article>
+        </div>
+    </template>
+     <!-- Product-section End-->>
+    <footer class="footer-section">
+        <footer class="footer-section">
+            <script src="/JS/footer.js"></script>
+    </footer>
+    <!-- footer End -->
+
+    <script type="module" src="/JS/showAddToCards.js"></script>
+</body>
+</html>

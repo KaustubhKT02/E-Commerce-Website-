@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    <header id="header-section">
+        <section class="header-col1">
+            <div class="container flex">
+                <p>Free shopping 30-day return or refund guarantee.</p>
+
+                <ul class="flex">
+                    <li>
+                        <a href="#">SIGN IN</a>
+                    </li>
+                    <li>
+                        <a href="#">SIGN UP</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="nav-section">
+            <nav>
+                <div class="container">
+                    <div class="navbar flex">
+                        <div class="brand-logo">
+                            <img src="/Assets/Tripathi store.png" alt="brand-log" width="80px" height="80px">
+                        </div>
+    
+                        <ul class="flex">
+                            <li>
+                                <a href="/index.html" class="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="/HTML/about.html" class="nav-link">About</a>
+                            </li>
+                            <li>
+                                <a href="/HTML/product.html" class="nav-link">Products</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+    
+                            <div  class=" nav-btn btn">
+                                <a href="./addToCart.html" id="cart" >
+                                    <i class="fa-solid fa-cart-shopping"> 0 </i>
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- Heder End -->
+     
+        <div class="container">
+            <div class="contact flex">
+                <div class="contactInfo">
+                    <section class="Section-common-heding">
+                        Contact information
+                    </section>
+                    <p class="text">
+                        Fill up the form and our Team will get back to you within 24 hours.
+                    </p>
+
+                    <p><i class="fa-solid fa-phone"></i> +0123 4567 8910</p>
+                    <p><i class="fa-solid fa-envelope"></i> support@yourstore.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i> 123 Main Street, City, Country</p>
+                </div>
+
+                <form action="https://formsubmit.co/kaustubhtriupathi36@gmail.com" method="post" autocomplete="off">
+                    <label>Your Name</label>
+                    <input type="text" name="Name" required autocomplete="off">
+
+                    <label>Email</label>
+                    <input type="email" name="Email" id="" required  autocomplete="off">
+
+                    <label>Subject</label>
+                    <input type="text" name="Subject" id="" autocomplete="off">
+
+                    <label>Message</label>
+                    <textarea name="Message" oautocomplete="off" ></textarea>
+
+                    <button class="" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    
+    <!-- Main End -->
+   
+    <footer class="footer-section">
+        <script src="/JS/footer.js"></script>
+        <!-- footer End -->
+
+ <script>
+    document.addEventListener("DOMContentLoaded", function(){
+        const form = document.querySelector("form");
+
+        form.addEventListener("submit", function(e) {
+            alert("Your message has been sent successfully!")
+        })
+    });
+ </script>
+ <script type="module" src="/script.js"></script>
+ 
+</body>
+</html>

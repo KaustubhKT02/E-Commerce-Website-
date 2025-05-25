@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "HyperX Cloud II Gaming Headset",
+    "category": "Gaming Headset",
+    "brand": "HyperX",
+    "price": 7999.00,
+    "actualPrice": 8315.17,
+    "stocks": 100,
+    "description": "Comfortable gaming headset with 7.1 virtual surround sound, noise-canceling mic, and memory foam ear cushions.",
+    "image": "/Assets/Products/Gaming-Headset.png"
+  },
+  {
+    "id": "2",
+    "name": "Asus TUF Gaming Monitor",
+    "category": "Monitor",
+    "brand": "Asus",
+    "price": 23000.00,
+    "actualPrice": 23294.57,
+    "stocks": 50,
+    "description": "27-inch Asus TUF gaming monitor with 165Hz refresh rate, 1ms response time, and FreeSync support.",
+    "image": "/Assets/Products/Gaming-Monitor.png"
+  },
+  {
+    "id": "3",
+    "name": "Logitech G502 Lightspeed Wireless Gaming Mouse",
+    "category": "Gaming Mouse",
+    "brand": "Logitech",
+    "price": 10477.17,
+    "actualPrice": 12477.17,
+    "stocks": 200,
+    "description": "Wireless gaming mouse with HERO 25K sensor, customizable RGB lighting, and 11 programmable buttons.",
+    "image": "/Assets/Products/Gaming-Mouse.png"
+  },
+  {
+    "id": "4",
+    "name": "Acer Predator Helios 300 Gaming Laptop",
+    "category": "Laptop",
+    "brand": "Acer",
+    "price": 108000.99,
+    "actualPrice": 108151.67,
+    "stocks": 20,
+    "description": "Acer Predator Helios 300 with Intel Core i7, RTX 3060, 16GB RAM, and 512GB SSD for high-performance gaming.",
+    "image": "/Assets/Products/Laptop.webp"
+  },
+  {
+    "id": "5",
+    "name": "Apple iPhone 14 Pro",
+    "category": "Smartphone",
+    "brand": "Apple",
+    "price": 79999.99,
+    "actualPrice": 83201.67,
+    "stocks": 50,
+    "description": "iPhone 14 Pro with 6.1-inch Super Retina XDR display, A16 Bionic chip, and 48MP Pro camera system.",
+    "image": "/Assets/Products/phone.webp"
+  },
+  {
+    "id": "6",
+    "name": "Microsoft Xbox Series X",
+    "category": "Gaming Console",
+    "brand": "Microsoft",
+    "price": 40000.99,
+    "actualPrice": 41600.67,
+    "stocks": 100,
+    "description": "Xbox Series X with 1TB SSD, 4K gaming at up to 120FPS, and backward compatibility with previous Xbox games.",
+    "image": "/Assets/Products/Xbox.png"
+  }
+]

@@ -186,34 +186,55 @@
         }
     
         & .Product-category {
-            width: 16%;
+            width: 45%;
             margin:1rem 0;
+            margin-left: 5px;
             font-size: 1.2rem;
         }
     
         & .Product-name {
-            width: 50%;
+            width: 100%;
+            margin-bottom: 0.5rem;
             font-size:1.5rem;
             letter-spacing:0;
             ;
         }
-    
-        & .product-Price-Element{
-            gap: 1rem;
+
+        
+    & .product-Price-Element{
+        width: 50%;
+        padding: 2rem;
+        color: var(--secondary-color);
+        text-align: center;
+    }
+
+          & .product-Quantity-Element {
+        padding: 0.5rem 0;
+        width: 50%;
+
+        & .productProperty{
+            font-weight: 700;
+            padding-right: 0.5rem;
         }
+    }
     
     
         & .remove-to-cart-button {
-            width:20%;
+            width:100%;
             font-size: 1.3rem;
             
         }
        }
        .cart-img-container {
-        width: 30%;
+        width: 50%;
+        margin-top: 0.5rem;
        }
     
        .cart-img {
-        width: 450px;
+        
+        width: 20%;
        }
 }
+
+
+
